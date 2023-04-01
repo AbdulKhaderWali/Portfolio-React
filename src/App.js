@@ -6,7 +6,7 @@ function App() {
   const [darkMode, setDarkMode] = useState("false")
   return (
     <div className={darkMode? "dark" : ""}>
-    <div className={`px-10 dark:bg-gray-900`}>
+    <div className={`px-10 dark:bg-gray-900 min-h-screen`}>
         <Navbar setDarkMode={setDarkMode} darkMode={darkMode} />
         <Main />
     </div>

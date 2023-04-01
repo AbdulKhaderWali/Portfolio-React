@@ -4,9 +4,9 @@ import { AiFillLinkedin, AiFillMail,  AiFillGithub, AiFillWechat} from 'react-ic
 function SocialMediaIcons() {
   return (
     <>
-        <AiFillGithub className='hover:text-black' />
-        <AiFillLinkedin className='hover:text-blue-800' />
-        <AiFillMail className='hover:text-red-500' />
+        <AiFillGithub className='hover:text-black cursor-pointer' />
+        <AiFillLinkedin className='hover:text-blue-800 cursor-pointer' />
+        <AiFillMail className='hover:text-red-500 cursor-pointer' />
     </>
   )
 }
