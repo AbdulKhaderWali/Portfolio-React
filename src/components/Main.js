@@ -5,7 +5,7 @@ import laptop from '../assets/images/laptop.png'
 function Main() {
   return (
     <div className='flex justify-evenly items-center'>
-      <div>
+      <div className='hidden md:block'>
         <img src={laptop} alt='image not found' />
       </div>
       <div className='text-center p-10'>
